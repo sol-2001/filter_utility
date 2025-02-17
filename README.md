@@ -64,8 +64,10 @@ tasks.test {
 
 ## Пример запуска утилиты 
 1) Из filter_utility/build/libs/
+   
     java -jar filter_utility-1.0-SNAPSHOT-all.jar -f -a -p new_ -o /home/danil/results /home/danil/text.txt
-2) из папки проекта (filter_utility)
+3) из папки проекта (filter_utility)
+   
     ./gradlew run --args=' -f -p results_ -o /home/danil/results text.txt text2.txt'
 
 ### Реализованные опции
